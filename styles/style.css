@@ -359,12 +359,13 @@ width: 359px;
 }
 @media screen and (max-width: 867px) {
 .half-pic_container {
-  margin-left: 100px;
+  margin-left: 80px;
 }
 }
 .lorem_container {
     display: flex;
-    justify-content: space-between;
+ justify-content: space-evenly;
+
 }
 .half-pic {
     margin-top: 67px;
@@ -390,9 +391,117 @@ width: 359px;
      width: 291px;
 }
 
-
-
+.lorem {
  
+}
+@media screen and (max-width:938px) {
+    .mask {
+        max-width: 600px;
+        height: 400px;
+    }
+    .mask h2 {
+        padding-left: 45px;
+        padding-top: 150px;
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:812px) {
+    .mask {
+        max-width: 500px;
+        height: 400px;
+    }
+    .mask h2 {
+        padding-left: 35px;
+        padding-top: 125px;
+        font-size: 35px;
+    }
+
+
+    
+}
+@media screen and (max-width: 690px) {
+   .half-pic_container {
+    padding: 0%;
+    margin-left: 20px;
+   }
+    .mask {
+        max-width: 600px;
+        height: 383px;
+        padding: 0%;
+    }
+    .mask h2 {
+        padding-left: 35px;
+        padding-top: 100px;
+        font-family: "Exo 2";
+font-size: 44px;
+font-weight: 600;
+line-height: 55px;
+text-align: left;
+
+    } 
+}
+@media screen and (max-width: 576px) {
+    .mask {
+        max-width: 400px;
+        height: 383px;
+        padding: 0%;
+    }
+    .mask h2 {
+        padding-left: 25px;
+        padding-top: 140px;
+        font-family: "Exo 2";
+font-size: 30px;
+font-weight: 600;
+line-height: 45px;
+text-align: left;
+
+    } 
+}
+@media screen and (max-width: 500px) {
+.mask {
+display: none;
+}
+
+}
+@media screen and (max-width: 837px) {
+    .lorem {
+        margin-left: 150px;
+       justify-content: space-between;
+    }
+}
+@media screen and (max-width: 690px) {
+    .lorem_container {
+        flex-direction: column;
+ 
+    }
+    .lorem {
+        margin: 0px;
+        padding: 0%;
+    }
+    .lorem_container {
+      margin: 0%;
+      padding: 0%;
+gap: 50px;
+    }
+    .checklist { 
+    margin-bottom: 30px;
+    }
+    .lorem {
+        margin-top: 30px;
+        margin-left: 150px;
+    }
+
+}
+.lorem_card h3 { margin-bottom: 14px;
+    margin-top: 12px;
+}
+@media screen and (max-width:490px) {
+.lorem {
+    margin: 0%;
+    margin-left: 90px;
+}
+}
+
 
 
 
